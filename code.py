@@ -1,5 +1,6 @@
 import time, gc, os, ssl
 import digitalio
+import board
 import supervisor
 import wifi, socketpool
 import asyncio
@@ -7,8 +8,11 @@ import asyncio
 from adafruit_datetime import timedelta
 from adafruit_debouncer import Debouncer
 from ringbuffer import RingBuffer
-from blink import blink, Color
+from blink import blink, Color, pixel
 from mqtt import Mqtt
+from connect_wifi import connect_wifi
+
+
 
 class LoopState:
     """

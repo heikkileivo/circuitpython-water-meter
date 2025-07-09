@@ -1,6 +1,7 @@
+import os
 import asyncio
 import adafruit_minimqtt.adafruit_minimqtt as MQTT
-from wifi import connect_wifi
+from connect_wifi import connect_wifi
 from blink import blink, Color
 
 class Mqtt:

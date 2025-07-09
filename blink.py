@@ -1,3 +1,4 @@
+import board
 import asyncio
 import neopixel
 import tinys3
