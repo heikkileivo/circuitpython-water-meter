@@ -1,0 +1,17 @@
+# Sample settings file
+CIRCUITPY_WIFI_SSID = "xxx"
+CIRCUITPY_WIFI_PASSWORD = "yyy"
+CIRCUITPY_WEB_API_PASSWORD = "zzz"
+CIRCUITPY_WEB_API_PORT = 80
+CIRCUITPY_WEB_INSTANCE_NAME = "my-water-meter"
+mqtt_broker = "111.111.111.111"
+mqtt_port = 1883
+mqtt_user = "user"
+mqtt_pwd = "pwd"
+root_topic = "meters/water"
+sensor_pin = "board.D1"
+pulses_per_unit = 80
+report_interval = 5
+ring_buffer_length = 10
+counter_name = "Water"
+debounce_time_ms = 10 
