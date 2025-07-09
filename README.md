@@ -15,7 +15,7 @@ For the code to work, install following Adafruit depenencies to your board:
 - [Debouncer](https://docs.circuitpython.org/projects/debouncer/en/latest/)
 - [Ticks](https://docs.circuitpython.org/projects/ticks/en/latest/)
 
-Pre-built dependencies can be found in the [Adafruit libraries bundle] (https://circuitpython.org/libraries) for your board version.
+Pre-built dependencies can be found in the [Adafruit libraries bundle](https://circuitpython.org/libraries) for your board version.
 
 ## Notes
-If you are using some other board than TinyS3, modify blink.py to initialize the led, depending on how it is implemented on your board.
+If you are using some other board than TinyS3, modify [blink.py](blink.py) to initialize the led, depending on how it is implemented on your board.
